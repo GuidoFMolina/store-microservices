@@ -10,7 +10,7 @@ import java.util.Objects;
 @Table(name = "tbl_categories" )
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
+@NoArgsConstructor @Builder
 public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
